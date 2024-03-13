@@ -66,7 +66,7 @@ border-radius: 0 0 40px 40px; }
  .aba-conteudo{ display: none;
  }
 
- @media screen and (min-width: 768px) { 
+  
 .botoes { 
     display: flex;
  }
@@ -76,6 +76,6 @@ border-radius: 0 0 40px 40px; }
  .botao:last-child { 
     border-radius: 0 40px 0 0;
  }
- }
+ 
 
  
