@@ -43,9 +43,10 @@ body{
 border-radius: 0 0 40px 40px; }
 
 .botao { 
-    font-family: «Crakra Petch», sans-serif;
+    font-family: "Crakra Petch", sans-serif;
     background-color: var(--botao-inativo);
-    color: var(--branco); display: flex;
+    color: var(--branco);
+     display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
@@ -59,6 +60,10 @@ border-radius: 0 0 40px 40px; }
 
  .botoes { 
     display: block;
+ }
+ .aba-conteudo.ativo{ display:block;
+ }
+ .aba-conteudo{ display: none;
  }
 
  @media screen and (min-width: 768px) { 
