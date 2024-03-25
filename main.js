@@ -5,7 +5,7 @@ const tempoObjetivo1 = new Date ("2024-10-05T00-:00:00");
 contadores[0]
 contadores[0].textContent= tempoObjetivo1 - tempoAtual;
 
-for (let i = 0; i < botoes.length; i++) {
+for (let i = 0; i < botoes.length; i++)
     botoes[i].onclick = function () {
         for (let j = 0; j < botoes.length; j++) {
             botoes[j].classList.remove("ativo");
@@ -15,4 +15,13 @@ for (let i = 0; i < botoes.length; i++) {
         botoes[i].classList.add("ativo");
         textos[i].classList.add("ativo");
     }
+
+function calculadoraTempo(tempoObjetivo){
+    let tempoAtual = new date();
+    let tempofinal = tempoObjetivo - tempoAtual;
+    let segundos = Math.floor(tempofina / 1000);
+    let minutos = Math.floor(segundos/60);
+
+    return segundos;
 }
+
