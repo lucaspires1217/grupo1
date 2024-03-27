@@ -99,3 +99,8 @@ body {
     text-transform: uppercase;
 }
 
+.contador{
+    text-align: center;
+    font-size: 26px;
+}
+
