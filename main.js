@@ -37,6 +37,11 @@ function calculadoraTempo(tempoObjetivo){
 for (let i=0; i< contadores.length; i++){
     contadores[i]. textContent = caucula (tempo[i]);
     contadores[i].textContent= calculadoraTempo(tempo[i]);
-}
+
 atualizaCronometro(i);
 setInterval(atualizaCronometro, 1000);
+}
+
+//comecaCronometro();
+
+
