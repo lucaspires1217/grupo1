@@ -100,7 +100,18 @@ body {
 }
 
 .contador{
-   display:flex;
-   justify-content: center;
-}
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
 
+.contador-digito-número{
+    font-size: 80px;
+    margin: 0;
+    min-width: 100px;
+}
+.contador-digito-texto{
+color: var(--verde);
+font-size: 20px;
+margin: 0;
+}
